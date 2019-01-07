@@ -1,4 +1,4 @@
-FROM node:lastest
+FROM node:latest
 
 RUN mkdir -p /home/www/perfSystem_server
 WORKDIR /home/www/perfSystem_server
