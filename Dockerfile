@@ -1,7 +1,7 @@
 FROM node:lastest
 
 RUN mkdir -p /home/www/perfSystem_server
-WORKING /home/www/perfSystem_server
+WORKDIR /home/www/perfSystem_server
 
 COPY . /home/www/perfSystem_server
 
